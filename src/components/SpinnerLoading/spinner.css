@@ -1,0 +1,27 @@
+.spinner_load {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    opacity: 0.75;
+    height: 100%;
+    z-index: 123123123123;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+
+}
+
+.wrap_spinner {
+    width: 100%;
+}
+
+.img_spinner {
+    background-image: url("./airbnbloading.gif");
+    background-size: 10%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

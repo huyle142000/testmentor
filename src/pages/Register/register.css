@@ -1,0 +1,22 @@
+.user_box {
+    position: relative;
+    margin-top: 10px;
+}
+
+.user_box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.user_box input {
+    padding: 6px 24px;
+    width: 100%;
+}
+
+.login_now {
+    color: rgb(78, 144, 230);
+    cursor: pointer;
+    margin-left: 5px;
+}

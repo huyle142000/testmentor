@@ -1,0 +1,30 @@
+.project_required {
+    color: red;
+}
+
+.form-group p {
+    margin-bottom: 10px;
+}
+
+.border_errors {
+    border: 1px solid red;
+}
+
+.form-control:focus {
+    border-color: gray;
+    outline: 0;
+    box-shadow: none;
+}
+.title_nav span:first-child{
+    color: rgb(157, 155, 155);
+}
+.btn_second{
+ background-color: blue;
+ color: #fff;
+ padding: 5px 30px;
+}
+.btn_cancel{
+    color: #fff;
+    padding: 5px 30px;
+    background-color: gray;
+}
