@@ -19,7 +19,7 @@ export const loginAPI = (userInfo, navigate) => {
       let userInfo = JSON.stringify(curUser);
       localStorage.setItem(USER_LOGIN, userInfo);
       //
-      navigate("/getallproject");
+      navigate("/projectall");
       dispatch2(loginForm(curUser));
     });
     promise.catch((error) => {
